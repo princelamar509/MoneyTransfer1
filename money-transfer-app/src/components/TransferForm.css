@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #4caf50;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --button-bg-color: #4caf50;
+  --button-text-color: #fff;
+}
+
+.transfer-form-container {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.transfer-form h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.transfer-form .form-group {
+  margin-bottom: 15px;
+}
+
+.transfer-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.transfer-form input,
+.transfer-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transfer-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transfer-form button:hover {
+  background-color: rgb(5, 56, 5);
+}
